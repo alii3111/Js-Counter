@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+#info{
+    background-color: rgb(9, 90, 227);
+    padding: 3rem;
+    border-radius: 100%;
+    width: 200px;
+    height: 180px;
+    color: #fff;
+    text-align: center;
+    font-size: 4rem;
+    align-items: center;
+   
+}
+
+#buttons{
+    display: flex;
+    flex-direction: row;
+
+
+}
+button{
+    margin: 50px;
+    background-color: blue;
+    padding: 10px 32px;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 16px;
+}
+#buttons button{
+    margin: 50px;
+    background-color: blue;
+    padding: 10px 32px;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 16px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+#target{
+    padding: 2px 10px;
+    border:  1px solid blue;
+    height: 7vh;
+}
+
+.target{
+    margin-bottom: 100px;
+    top: -20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  
+}
+button:nth-child(4) {
+    background-color: brown;
+
+
+}
+h4{
+    margin: auto;
+    background-color: #047433;
+    color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 40PX;
+
+}
+.no-target{
+    display: none;
+
+}
+.target-selected{
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
+.big{
+    color: red;
+}
+#buttons button:nth-child(3) {
+    background-color: orangered;
+
+
+}
+#buttons button:nth-child(2) {
+    background-color: #047433;
+
+
+}
+.start{
+    display: none;
+}
+.add{
+    display: none;
+
+}
+
+.incr{
+    display: block;
+}
+
+.pop{
+    display: none;
+
+}
+.pop-up{
+    display: block;
+    margin-bottom: auto;
+    animation: pops;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+
+}
+
+@keyframes pops{
+    0% {top: -20px;}
+    
+    100% {top: 40px;}
+}
+
+button i{
+    padding-right: 10px;
+    margin-left: -20px;
+}
+span{
+    align-items: center;
+    text-align: center;
+
+}
+
+.animation button{
+    background-color: orangered;
+    
+}
+
+#info h5{
+    text-align: center;
+    align-items: center;
+
+}
+@media screen and (max-width: 776px) {
+    .target{
+        display: block;
+        margin-top: 60px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 80%;
+        position: relative;
+        margin-bottom: 10px;
+    }
+   
+   h4{
+       top: -40px;
+       position: relative;
+       margin-bottom: -60px;
+   }
+    #buttons{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        padding: 20px;
+       
+       
+    }
+
+    #buttons button{
+        margin-bottom: -32px;
+        bottom: 50px;
+        position: relative;
+    }
+    #info{
+       
+        font-size: 2.8rem;
+        background-color: green;
+        
+        
+
+    }
+    #info h5{
+        text-align: center;
+        align-items: center;
+
+    }
+    button{
+        margin: 30px auto;
+        display: block;
+        align-items: center;
+        text-align: center;
+        
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

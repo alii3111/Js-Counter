@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Js Counter</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+  <h4>Once you hit the target you will be alerted</h4>
+ <div class="target">
+  <input type="text" id="target" placeholder=" Enter your target">
+  <button id="target-btn">Enter Target</button>
+  <button class="target-selected"></button>
+  <button class="no-target active">No Target Selected</button>
+ </div>
+ <div class="animation">
+    
+  <button class="pop"> <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+   You Have Hit Your Target </button>
+  </div>
+  <div id="info">
+    <h5 id="content">0</h5>
+  </div>
+  
+<div id="buttons">
+  <button class="add ">Add</button>
+  <button class="start incr">Start</button>
+
+  <button id="reset" type="reset">Reset</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
