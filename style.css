@@ -177,22 +177,8 @@ span{
        position: relative;
        margin-bottom: -60px;
    }
-    /* #buttons{
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        align-items: center;
-        padding: 20px;
-       
-       
-    } */
 
-    #buttons button{
-        /* margin-bottom: -32px;
-        bottom: 50px; */
-        /* position: relative;
-        margin-top: 10px; */
-    }
+    
     #info{
        
         font-size: 2.8rem;
