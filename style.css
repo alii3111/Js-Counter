@@ -169,7 +169,7 @@ span{
         justify-content: center;
         width: 80%;
         position: relative;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
    
    h4{
@@ -177,7 +177,7 @@ span{
        position: relative;
        margin-bottom: -60px;
    }
-    #buttons{
+    /* #buttons{
         display: flex;
         flex-direction: column;
         margin: auto;
@@ -185,12 +185,13 @@ span{
         padding: 20px;
        
        
-    }
+    } */
 
     #buttons button{
-        margin-bottom: -32px;
-        bottom: 50px;
-        position: relative;
+        /* margin-bottom: -32px;
+        bottom: 50px; */
+        /* position: relative;
+        margin-top: 10px; */
     }
     #info{
        
@@ -206,7 +207,7 @@ span{
 
     }
     button{
-        margin: 30px auto;
+        margin: 20px auto 30px  auto;
         display: block;
         align-items: center;
         text-align: center;
